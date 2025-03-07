@@ -1,0 +1,15 @@
+Create a resource group.
+Create a storage account for remote backend configuration and set it as the new backend.
+Import existing resources created from the Azure portal.
+Modify the imported resource configurations.
+Create a VNet module with variables and outputs.
+Apply the VNet module in main.tf.
+Create a VM using secrets stored in Key Vault.
+
+
+
+## Service Principal info > Run below commands in the terminal
+$env:ARM_CLIENT_ID="client id"
+$env:ARM_CLIENT_SECRET="client secret (vaule)"
+$env:ARM_TENANT_ID="tenant id"
+$env:ARM_SUBSCRIPTION_ID="subscription id"
