@@ -1,3 +1,4 @@
+This demo includes the following steps:
 Create a resource group.
 Create a storage account for remote backend configuration and set it as the new backend.
 Import existing resources created from the Azure portal.
